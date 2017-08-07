@@ -6,7 +6,7 @@ Since servos differ and the pan & tilt mounts vary, it can be hard to figure out
 You will need to modify the code particularily the if-then statements variables controlling the postioning relaitve to your screen size and equipment.
 Once you have the positioning where you want it, the calibrated if-then statements can be copied from the tool and added to your object tracker project.
 
-# Dependecies
+# Dependencies
 - open cv version 3.2
 - imutils
 - pigpiod
