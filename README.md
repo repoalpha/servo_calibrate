@@ -7,10 +7,10 @@ of objects in realtime, driving servos and using a camera feed. This tool may he
 You will need to modify the code particularily the if-then statements variables section controlling the postioning relaitve to your screen size and equipment.
 Once you have the positioning where you want it, the calibrated if-then statements can be copied from the tool and added to your object tracker project.
 
-# dependecies
-open cv version 3.2
-imutils
-pigpiod
+# Dependecies
+- open cv version 3.2
+- imutils
+- pigpiod
 
 # A note about pigpiod
 The pigpiod Daemon needs to be run first for a few seconds before starting the tracker tool. It could be run from boot if required by modifying the init.d file, I do not since I may need resources for other projects at times so I keep it flexible. The camera I used is a USB logitech 920 not the raspberry pi type hence the bigger servos and mount. 
