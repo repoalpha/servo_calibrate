@@ -19,3 +19,4 @@ To start the pigpiod Daemon use:
 sudo pigpiod
 to stop the Daemon:
 pkill pigpiod
+
