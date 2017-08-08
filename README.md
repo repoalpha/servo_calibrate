@@ -13,7 +13,7 @@ Once you have the positioning where you want it, the calibrated if-then statemen
 - pigpiod
 
 # A note about pigpiod
-The pigpiod Daemon needs to be run first for a few seconds before starting the calibrate tool. This Daemon is used in place of the Rpi.gpio module normally used as the servo jitter is herendous. You can leave the pipiod Daemon running the same can't be said for the native pwm used by the pi.It could be run from boot if required by modifying the init.d file, I do not since I may need resources for other projects at times so I keep it flexible. The camera I used is a USB logitech 920 not the raspberry pi type hence the bigger servos and mount. 
+The pigpiod Daemon needs to be run first for a few seconds before starting the calibrate tool. This Daemon is used in place of the Rpi.gpio module normally used as the servo jitter is herendous. You can leave the pipiod Daemon running the same can't be said for the native pwm used by the pi. Pigpoid could be run from boot if required by modifying the init.d file, I do not since I may need resources for other projects at times so I keep it flexible. The camera I used is a USB logitech 920 not the raspberry pi type hence the bigger servos and mount. 
 
 To start the pigpiod Daemon use:
 > sudo pigpiod
